@@ -1,12 +1,40 @@
 <html>
     <head>
         <meta charset="utf-8">
+        <meta name="description" content="Simple airplane animation without js">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-        <title>Super Simple Gulp File</title>
+        <title>Cartoon Airplane CSS</title>
         <link rel="stylesheet" href="dist/style.css">
     </head>
     <body>
 
-        <script src="dist/all.js"></script>
+    <input type="radio" name="fan" id="zero">
+    <input type="radio" name="fan" id="one" checked="true">
+    <input type="radio" name="fan" id="three">
+
+        <div class="plane">
+            <div class="plane__empennage__horizontal"></div>
+            <div class="plane__empennage__vertical"></div>
+            <div class="plane__fuselage">
+                <div class="plane__fuselage__end"></div>
+                <div class="plane__fuselage__middle">
+                    <div class="plane__mirrors__bottom"></div>
+                    <div class="plane__mirrors__top"></div>
+                </div>
+                <div class="plane__fuselage__border"></div>
+                <div class="plane__fuselage__start"></div>
+                <div class="plane__powerplant">
+                    <div class="plane__nose"></div>
+
+                    <div class="plane__blades">
+                        <div class="plane__blade"></div>
+                        <div class="plane__blade"></div>
+                        <div class="plane__blade"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="plane__wings__left"></div>
+            <div class="plane__wings__right"></div>
+        </div>
     </body>
 </html>

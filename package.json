@@ -12,9 +12,11 @@
     "boilerplate",
     "html",
     "css",
-    "javascript"
+    "javascript",
+    "airplane-css"
   ],
-  "author": "@thecodercoder",
+  "author gulp-boilerplate": "@thecodercoder",
+  "author Airplane-css": "@SerhiyDmytruk",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/thecodercoder/frontend-boilerplate/issues"
